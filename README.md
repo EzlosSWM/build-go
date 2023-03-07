@@ -18,5 +18,5 @@ Here's a short list of files that is created:
 `git clone https://github.com/EzlosSWM/build-go.git`
 2. Navigate to the directory  
 `cd build-go`
-3. Run 
-- `make run` 
+3. Build 
+- `make build` 
