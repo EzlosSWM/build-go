@@ -1,5 +1,8 @@
 build: 
-	@go build -o testFolder/build-go
+	@go build -o bin/build-go
 
 run: build
-	@cd testFolder && ./build-go new
+	@./build-go new -default 
+
+test: 
+	@go test -v ./...
